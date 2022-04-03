@@ -1,14 +1,14 @@
 import React from 'react';
-import { Text, StyleSheet, View} from 'react-native';
+import { SafeAreaView, StyleSheet, View} from 'react-native';
 import CarsList from './components/CarsList';
 import Header from './components/Header';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <SAfeAreaView style={styles.container}>
       <Header />
       <CarsList /> 
-    </View>
+    </SAfeAreaView>
   );
 };
 
