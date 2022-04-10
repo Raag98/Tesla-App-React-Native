@@ -5,10 +5,10 @@ import Header from './components/Header';
 
 const App = () => {
   return (
-    <SAfeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Header />
       <CarsList /> 
-    </SAfeAreaView>
+    </SafeAreaView>
   );
 };
 
